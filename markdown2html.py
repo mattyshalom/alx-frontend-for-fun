@@ -89,5 +89,4 @@ if __name__ == "__main__":
                 w.write('</ol>\n')
             if paragraph:
                 w.write('</p>\n')
-
     exit(0)
