@@ -1,0 +1,7 @@
+$list_to_sort: john, anna, zoe, kim, felicia, carrie;
+
+@debug "Original list: #{$list_to_sort}";
+
+$list_to_sort: sort($list_to_sort);
+
+@debug "Sorted list: #{$list_to_sort}";
